@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Ayudantia29abril</string>
+
+    <!--    page2-->
+    <string name="speech">El lugar mas seguro para tu dinero</string>
+    <string name="btn_crear_cuenta_nueva">Crear una nueva cuenta</string>
+    <string name="yatiene">Ya tienes una cuenta?</string>
+
+    <!--    page3-->
+    <string name="txt_cabecera">Ingresa y empieza a \n transferir</string>
+    <string name="email">Email</string>
+    <string name="ingresa_email">Ingresa tu email</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingresa_contrasenia">Ingresa tu contraseña</string>
+    <string name="olvidacontrasenia">Olvidaste tu contraseña?</string>
+    <string name="login">Login</string>
+
+<!--page4-->
+    <string name="registro">Regístrate y \n empieza a transferir</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingresa_nombre">Ingresar nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="ingresa_apellido">Ingresar apellido</string>
+    <string name="ingresa_contraseña">Ingresar contraseña</string>
+    <string name="reingresa_contraseña">Reingresar contraseña</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+
+<!--    page5-->
+    <string name="inicio">Inicio</string>
+    <string name="holandas">Hola, Amanda!</string>
+    <string name="balance">Balance Total</string>
+    <string name="moneas">$124.57</string>
+    <string name="enviar_moneas">Enviar Dineo</string>
+    <string name="ingresar_moneas">Ingresar Dinero</string>
+    <string name="las_ransas">Últimas transacciones</string>
+    <string name="pers1">Aniximandro</string>
+    <string name="pers2">Sara</string>
+    <string name="pers3">Ali</string>
+    <string name="pers4">Pepeludo</string>
+    <string name="pers5">Nadie</string>
+    <string name="hola_amanda">Hola, Amanda</string>
+    <string name="balance_total">Balance Total</string>
+    <string name="_124_57">$124.57</string>
+    <string name="enviar_dinero">Enviar Dinero</string>
+    <string name="ingresar_dinero">Ingresar dinero</string>
+    <string name="ltimas_transacciones">Últimas transacciones</string>
+    <string name="ultimas_transacciones">Ultimas transacciones</string>
+    <string name="ingresar_nombre">Ingresar nombre</string>
+    <string name="ingresar_apellido">Ingresar Apellido</string>
+    <string name="no_hay_transacciones_registradas">No hay transacciones registradas</string>
+    <!--    <string name=""></string>-->
+<!--    <string name=""></string>-->
+<!--    <string name=""></string>-->
+
+
+</resources>

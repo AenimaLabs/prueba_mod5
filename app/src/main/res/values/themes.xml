@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ayudantia29abril" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Ayudantia29abril" parent="Base.Theme.Ayudantia29abril" />
+
+    <style name="txt_blanco">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontWeight">400</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">21sp</item>
+    </style>
+
+    <style name="boton_celeste">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/celeste</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">21sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="boton_azul">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/azul</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">21sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="boton_verde">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/verde</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">21sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+    <style name="txt_azul">
+        <item name="android:textColor">@color/azul</item>
+        <item name="fontWeight">400</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="android:textAlignment">center</item>
+        <item name="lineHeight">21sp</item>
+    </style>
+
+    <style name="cabecera_negro">
+        <item name="android:textColor">@color/negro</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textSize">32sp</item>
+        <item name="lineHeight">52sp</item>
+    </style>
+
+    <style name="label_negro">
+        <item name="android:textColor">@color/negro</item>
+        <item name="fontFamily">@font/jua</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">21sp</item>
+    </style>
+</resources>

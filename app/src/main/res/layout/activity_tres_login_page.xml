@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Tres_LoginPageActivity"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:id="@+id/txt_cabecera_pg3"
+        style="@style/cabecera_negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/txt_cabecera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_pg3"
+        style="?attr/textInputFilledStyle"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+
+        android:hint="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cabecera_pg3">
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/email_pg3_txt"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/ingresa_email" />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_pg3"
+        style="?attr/textInputFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/contrasenia"
+        app:endIconMode="password_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_pg3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_pg3"
+            style="@style/label_negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/ingresa_contrasenia" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        style="@style/txt_azul"
+        android:id="@+id/txt_olvida_pg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/olvidacontrasenia"
+        app:layout_constraintEnd_toEndOf="@+id/password_pg3"
+        app:layout_constraintTop_toBottomOf="@+id/password_pg3" />
+
+    <Button
+        android:id="@+id/btn_pg3"
+        style="@style/boton_celeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@+id/password_pg3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/password_pg3"
+        app:layout_constraintTop_toBottomOf="@+id/password_pg3" />
+
+    <TextView
+        android:id="@+id/txt_crea_nueva_cuenta_pg3"
+        style="@style/txt_azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_crear_cuenta_nueva"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pg3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
